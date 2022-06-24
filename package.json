@@ -1,0 +1,22 @@
+{
+  "name": "coding-challenge-soccer-original",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lodash.chunk": "^4.2.0",
+    "lodash.compact": "^3.0.1"
+  },
+  "devDependencies": {
+    "jest": "^28.1.1"
+  },
+  "jest": { 
+    "modulePathIgnorePatterns": ["testGameData"] 
+  }
+}
